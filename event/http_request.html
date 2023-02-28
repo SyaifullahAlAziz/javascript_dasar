@@ -1,0 +1,25 @@
+<script>
+
+async function ambilData() {
+    let res = await fetch('/api/path_to_data')
+        res = await res.json()
+        
+    return res
+}
+
+async function simpanData() {
+    let options = {
+        method : 'POST',
+        headers : {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body : JSON.stringify(data)
+    }
+
+    let res = await fetch('/api/path_to_data', options)
+        res = await res.json()
+
+    return res
+}
+
+</script>

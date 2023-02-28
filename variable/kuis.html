@@ -1,0 +1,24 @@
+<script>
+
+    const peserta = {
+        nama : 'Syaifullah Al Aziz',
+        umur : 22,
+        jenis_kelamin : 'Laki-Laki',
+        hobby : hobi = ['Futsal', 'Badminton', 'Mobile Legends'],
+        lokasi : 'Padang',
+        pergiKe : function (x){
+            this.lokasi = x
+        },
+        ulangTahun : function (){
+            this.umur++
+        },
+        tambahHobby: function(hobby) {
+            this.hobby.push(hobby)
+        }
+    };
+
+    // console.log('Lokasi ku sekarang:'+ peserta.lokasi)
+    peserta.pergiKe('Bukittinggi')
+    console.log('Setelah itu lokasi ku:' + peserta.lokasi)
+
+</script>

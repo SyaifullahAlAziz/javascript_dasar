@@ -1,0 +1,16 @@
+1. onload : event ini akan terjadi setelah halaman web selesai diunduh dan ditampilkan
+2. onpageshow : event ini akan terjadi jika halaman web kembali dikunjungi kembali 
+(berbeda dengan onload, karena event onload tidak akan terjadi jika halaman web diambil dari cache)
+3. onresize : event ini akan terjadi jika window browser di-resize oleh user atau oleh hal lainnya.
+4. onreset : event ini akan terjadi ketika user menekan tombol reset pada elemen form
+5. onsubmit : event ini akan terjadi ketika user menekan tombol submit pada form
+6. onkeydown : event ini akan terjadi ketika sebuah tombol keyboard ditekan
+7. onkeypress : event ini terjadi setelah onkeydown, dimana tombol masih dalam keadaan ditekan. 
+8. event ini tidak dapat mendeteksi tombol fungsi seperti ctrl, shift, alt, esc, backspace, dan sebagainya
+9. onkeyup: event ini akan terjadi ketika sebuah tombol pada keyboard dilepas
+10. oncopy : event ini akan terjadi ketika kita melakukan proses copy
+11. oncut : event ini akan terjadi ketika kita melakukan proses cut
+12. onpaste : event ini akan terjadi ketika kita melakukan proses paste
+13. onclick : event ini akan terjadi ketika kita menekan elemen tertentu dengan cursor
+14. ondblclick : event ini akan terjadi ketika kita menekan elemen tertentu dua kali berturut-turut dengan cursor
+15. onmouseover : event ini akan terjadi ketika cursor kita berada diatas sebuah elemen tertentu
